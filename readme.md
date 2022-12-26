@@ -3,7 +3,10 @@
 
 
 ## Installation
-If Vortex has not yet officially supported Tales of Arise, my [Tales of Arise Vortex Support](https://www.nexusmods.com/site/mods/500) extension is here to help! With this mod, you can easily install this mod. For a better gaming experience, we also recommend switching the map orientation to relative to make the minimap act as a compass (System -> Settings -> Map Orientation). Enjoy!
+If Vortex has not yet officially supported Tales of Arise, my [Tales of Arise Vortex Support](https://www.nexusmods.com/site/mods/500) extension is here to help! Once installed, set the mod type to Engine injector:
+![Vortex Engine Injector](./vortex-engine-injector-showcase.png)
+
+For a better gaming experience, we also recommend switching the map orientation to relative to make the minimap act as a compass (System -> Settings -> Map Orientation). Enjoy!
 
 ## Features
 - The contents of the minimap are hidden by default.
