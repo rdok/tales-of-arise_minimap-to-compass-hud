@@ -15,23 +15,10 @@ If Vortex has not yet officially supported Tales of Arise, my [Tales of Arise Vo
 
 - Due to a limitation or bug from the tool we used to identify the HUD elements (https://github.com/bo3b/3Dmigoto), we have not been able to hide the minimap border. Otherwise, it hides additional crucial elements such as the mouse and menu, which would be more immersion breaking than simply having a compass showing north.
 - This mod also has the side effect of hiding the quest marker (star), but, in the context of this mod, this is an acceptable loss in order to create a more immersive experience.
-- WIP Due to the bo3b/3Dmigoto sideffect, this mod also hides the content of the map; this is being investigated for how to solve. For personal use I'm using the following hack, but am uncertaing how to expand this for users with different keymap; assuming you're opening your map using the 'V' button then d3dx.ini:
-```ini
-[Constants]
-x=1
-[Key1]
-Key=VK_INSERT
-x=0,1
-type=cycle
-[Key2]
-Key=VK_ESCAPE
-x=1
-[Key3]
-Key=0x56
-x=0
-- ```
+- Due to the bo3b/3Dmigoto sideffect, this mod also hides the content of the map. See [here](https://github.com/rdok/tales-of-arise_minimap-to-compass-hud/pull/1/files#diff-7950cd6e74d160f10688ee1dc174eff1a9ec44e022f5c240e463b480e68e828fR26) for a way around that.
 
 ## Development
+- Run `.\export-mod.ps1` from powershell to quickly create a compressed file for quick testing with Vortex.
 - This mod was developed using help from https://www.reddit.com/r/Ni_no_Kuni/comments/88bxfm/hud_removal_using_3dmigoto_guide/ In summary, it guides you to use thebo3b/3Dmigoto to generate scripts which can control the visiblity of the visible elements.
 - [Hud Toggle](https://www.nexusmods.com/talesofarise/mods/4) was the original insipiration of this mod. However, it is a hammer, in that it hides all the HUD elements, including the immersion breaking behaviour of hiding the mouse and menu; and yet it still has good value for people seeking to take screenshots.
 
