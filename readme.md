@@ -19,6 +19,9 @@ If Vortex has not yet officially supported Tales of Arise, my [Tales of Arise Vo
 
 ## Development
 - Run `.\export-mod.ps1` from powershell to quickly create a compressed file for quick testing with Vortex.
+- When ready for release, rename the mod to [name]_[new-version].zip, and include the file on a PR. [Example](https://github.com/rdok/tales-of-arise_minimap-to-compass-hud/pull/1). To make it easier to find for future readers, the PR should contain all files, include the one released.
+
+### Sources
 - This mod was developed using help from https://www.reddit.com/r/Ni_no_Kuni/comments/88bxfm/hud_removal_using_3dmigoto_guide/ In summary, it guides you to use thebo3b/3Dmigoto to generate scripts which can control the visiblity of the visible elements.
 - [Hud Toggle](https://www.nexusmods.com/talesofarise/mods/4) was the original insipiration of this mod. However, it is a hammer, in that it hides all the HUD elements, including the immersion breaking behaviour of hiding the mouse and menu; and yet it still has good value for people seeking to take screenshots.
 
